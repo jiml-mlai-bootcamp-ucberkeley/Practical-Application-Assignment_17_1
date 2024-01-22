@@ -83,13 +83,15 @@
 
 
 #### Here are the magnitude of individual features correlated to the 'y' feature and the Heatmaps visualization
-##### default    -0.099364
-##### education	  0.057776
-##### marital	  0.046249
-##### age	      0.030381
-##### job	      0.025248
-##### housing	  0.011613
-##### loan	     -0.004922
+<ul>
+<li>default    -0.099364</li>
+<li>education	0.057776</li>
+<li>marital	    0.046249</li>
+<li>age	        0.030381</li>
+<li>job	        0.025248</li>
+<li>housing	    0.011613</li>
+<li>loan	   -0.004922</li>
+</ul>
 <br/>
 <img src="images/heatmap.png"/>
 
