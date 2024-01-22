@@ -1,4 +1,3 @@
-<style>span{color:green}</style>
 # Practical-Application-Assignment_17_1
 
 ## Direct marketing campaigns of a Portuguese banking institution
@@ -105,23 +104,23 @@
 <tr><td>Logistic Regression</td><td>Recursive Feature Elimination</td><td>['default', 'education', 'housing', 'loan', 'marital']</td></tr>
 <tr><td>Logistic Regression</td><td>SequentialFeatureSelector</td><td>['age', 'default', 'education', 'housing', 'loan']</td></tr>
 <tr><td>KNeighbors Classifier</td><td>SequentialFeatureSelector</td><td>['default', 'education', 'housing', 'loan', 'marital']</td></tr>
-<tr><td>Decision Tree Classifier</td><td>Recursive Feature Elimination</td><td><b><span class="green">['age', 'education', 'housing', 'job', 'marital']</span></b></td></tr>
+<tr><td>Decision Tree Classifier</td><td>Recursive Feature Elimination</td><td><b>['age', 'education', 'housing', 'job', 'marital']</b></td></tr>
 <tr><td>Decision Tree Classifier</td><td>SequentialFeatureSelector</td><td>['default', 'education', 'housing', 'loan', 'marital']</td></tr>
 <tr><td>Support Vector Classification</td><td>Recursive Feature Elimination</td><td>['age', 'default', 'housing', 'loan', 'marital']</td></tr>
 </table>
 
 
 ##### This table represents the Features that were selected, how many it was selected, and relevant pie chart data.
-##### The <b><span class="green">bold green</span></b> features were selected for modeling and predictions.
+##### The <b>bold green</b> features were selected for modeling and predictions.
 <table>
 <tr><th>Feature</th><th>Count</th><th>Pie Chart</th></tr>
-<tr><td><b><span class="green">job</span></b></td><td>1</td><td></td></tr>
-<tr><td><b><span class="green">age</span></td><td>3</td><td></td></tr>
+<tr><td><b>job</b></td><td>1</td><td></td></tr>
+<tr><td><b>age</td><td>3</td><td></td></tr>
 <tr><td>default</td><td>5</td><td>no 79.1% , unknown 20.9% , yes 0%</td></tr>
-<tr><td><b><span class="green">education</span></td><td>5</td><td></td></tr>
+<tr><td><b>education</td><td>5</td><td></td></tr>
 <tr><td>loan</td><td>5</td><td> no 82.4% , yes 15.2% , unknown 2.4%</td></tr>
-<tr><td><b><span class="green">marital</span></td><td>6</td><td></td></tr>
-<tr><td><b><span class="green">housing</span></td><td>6</td><td>yes 52.4% , no 45.2% , unknown 2.4%</td></tr>
+<tr><td><b>marital</td><td>6</td><td></td></tr>
+<tr><td><b>housing</td><td>6</td><td>yes 52.4% , no 45.2% , unknown 2.4%</td></tr>
 </table>
 
 
