@@ -1,4 +1,4 @@
-<style>.green{color:green}</style>
+<style>span{color:green}</style>
 # Practical-Application-Assignment_17_1
 
 ## Direct marketing campaigns of a Portuguese banking institution
