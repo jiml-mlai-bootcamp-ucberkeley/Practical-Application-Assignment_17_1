@@ -103,24 +103,24 @@
 <tr><th>Model</th><th>Feature Selector</th><th>Selected Features</th></tr>
 <tr><td>Logistic Regression</td><td>Recursive Feature Elimination</td><td>['default', 'education', 'housing', 'loan', 'marital']</td></tr>
 <tr><td>Logistic Regression</td><td>SequentialFeatureSelector</td><td>['age', 'default', 'education', 'housing', 'loan']</td></tr>
-<tr><td>KNeighbors Classifier</td><td>Recursive Feature Elimination</td><td>SequentialFeatureSelector</td><td>['default', 'education', 'housing', 'loan', 'marital']</td></tr>
-<tr><td>Decision Tree Classifier</td><td>Recursive Feature Elimination</td><td><b>['age', 'education', 'housing', 'job', 'marital']</b></td></tr>
+<tr><td>KNeighbors Classifier</td><td>SequentialFeatureSelector</td><td>['default', 'education', 'housing', 'loan', 'marital']</td></tr>
+<tr><td>Decision Tree Classifier</td><td>Recursive Feature Elimination</td><td><b color="green">['age', 'education', 'housing', 'job', 'marital']</b></td></tr>
 <tr><td>Decision Tree Classifier</td><td>SequentialFeatureSelector</td><td>['default', 'education', 'housing', 'loan', 'marital']</td></tr>
 <tr><td>Support Vector Classification</td><td>Recursive Feature Elimination</td><td>['age', 'default', 'housing', 'loan', 'marital']</td></tr>
 </table>
 
 
 ##### This table represents the Features that were selected, how many it was selected, and relevant pie chart data.
-##### The <b>bold</b> features were selected for modeling and predictions.
+##### The <b color="green">bold green</b> features were selected for modeling and predictions.
 <table>
 <tr><th>Feature</th><th>Count</th><th>Pie Chart</th></tr>
-<tr><td><b>job</b></td><td>1</td><td></td></tr>
-<tr><td><b>age</td><td>3</td><td></td></tr>
+<tr><td><b color="green">job</b></td><td>1</td><td></td></tr>
+<tr><td><b color="green">age</td><td>3</td><td></td></tr>
 <tr><td>default</td><td>5</td><td>no 79.1% , unknown 20.9% , yes 0%</td></tr>
-<tr><td><b>education</td><td>5</td><td></td></tr>
+<tr><td><b color="green">education</td><td>5</td><td></td></tr>
 <tr><td>loan</td><td>5</td><td> no 82.4% , yes 15.2% , unknown 2.4%</td></tr>
-<tr><td><b>marital</td><td>6</td><td></td></tr>
-<tr><td><b>housing</td><td>6</td><td>yes 52.4% , no 45.2% , unknown 2.4%</td></tr>
+<tr><td><b color="green">marital</td><td>6</td><td></td></tr>
+<tr><td><b color="green">housing</td><td>6</td><td>yes 52.4% , no 45.2% , unknown 2.4%</td></tr>
 </table>
 
 
