@@ -16,33 +16,33 @@
 
 ### Data Descriptions
 #### Here is the preliminary info about our dataset.
-RangeIndex: 41188 entries, 0 to 41187
-Data columns (total 21 columns):
- #   Column          Non-Null Count  Dtype  
----  ------          --------------  -----  
- 0   age             41188 non-null  int64  
- 1   job             41188 non-null  object 
- 2   marital         41188 non-null  object 
- 3   education       41188 non-null  object 
- 4   default         41188 non-null  object 
- 5   housing         41188 non-null  object 
- 6   loan            41188 non-null  object 
- 7   contact         41188 non-null  object 
- 8   month           41188 non-null  object 
- 9   day_of_week     41188 non-null  object 
- 10  duration        41188 non-null  int64  
- 11  campaign        41188 non-null  int64  
- 12  pdays           41188 non-null  int64  
- 13  previous        41188 non-null  int64  
- 14  poutcome        41188 non-null  object 
- 15  emp.var.rate    41188 non-null  float64
- 16  cons.price.idx  41188 non-null  float64
- 17  cons.conf.idx   41188 non-null  float64
- 18  euribor3m       41188 non-null  float64
- 19  nr.employed     41188 non-null  float64
- 20  y               41188 non-null  object 
-dtypes: float64(5), int64(5), object(11)
-memory usage: 6.6+ MB
+    RangeIndex: 426880 entries, 0 to 426879\n
+    Data columns (total 18 columns):
+        Column        Non-Null Count   Dtype  
+    ---  ------        --------------   -----   
+     0   age             41188 non-null  int64  
+     1   job             41188 non-null  object 
+     2   marital         41188 non-null  object 
+     3   education       41188 non-null  object 
+     4   default         41188 non-null  object 
+     5   housing         41188 non-null  object 
+     6   loan            41188 non-null  object 
+     7   contact         41188 non-null  object 
+     8   month           41188 non-null  object 
+     9   day_of_week     41188 non-null  object 
+     10  duration        41188 non-null  int64  
+     11  campaign        41188 non-null  int64  
+     12  pdays           41188 non-null  int64  
+     13  previous        41188 non-null  int64  
+     14  poutcome        41188 non-null  object 
+     15  emp.var.rate    41188 non-null  float64
+     16  cons.price.idx  41188 non-null  float64
+     17  cons.conf.idx   41188 non-null  float64
+     18  euribor3m       41188 non-null  float64
+     19  nr.employed     41188 non-null  float64
+     20  y               41188 non-null  object 
+    dtypes: float64(5), int64(5), object(11)
+    memory usage: 6.6+ MB
 
 #### Here is the a list of descriptions for the features in the dataset.
 
@@ -73,16 +73,13 @@ memory usage: 6.6+ MB
 
 #### Here are some Pie Charts that show proportions in the some of the features.
 #### These will be useful later during my analysis.
-<img src="images/age_pie_chartt.png"/>
+<img src="images/default_pie_chart.png"/>
 <img src="images/education_pie_chart.png"/>
-<img src="images/job_pie_chart.png"/>
-<img src="images/title_pie_chart.png"/>
 <img src="images/marital_pie_chart.png"/>
+<img src="images/age_pie_chartt.png"/>
+<img src="images/job_pie_chart.png"/>
 <img src="images/housing_pie_chart.png"/>
-<img src="images/size_pie_chart.png"/>
-<img src="images/type_pie_chart.png"/>
-<img src="images/manufacturer_pie_chart.png"/>
-<img src="images/paint_color_pie_chart.png"/>
+<img src="images/loan_pie_chart.png"/>
 
 
 #### Here are the magnitude of individual features correlated to the 'y' feature and the Heatmaps visualization
@@ -114,3 +111,4 @@ memory usage: 6.6+ MB
 </table>
 
 #### Here's a table comparing the Baseline Models with the Same Models using Hyper Parameters
+<img src="images/Model Comparisons 1.png"/>
