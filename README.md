@@ -132,7 +132,7 @@
 <img src="images/Model Comparisons b.png"/>
 
 ##### Improving the Model
-##### The age feature appears to be skewered to the left and could use some attention.
+##### The age feature appears to be skewed to the left and could use some attention.
 ##### Using Zscore greater than 3 we can eliminate 369 outliers and forgo normalizing this feature.
 
 <table>
@@ -142,3 +142,38 @@
 
 #### Here's a table comparing the Baseline Models with the Same Models using Hyper Parameters
 <img src="images/Model Comparisons 1.png"/>
+
+#### The Baseline accuracy and best scores is very encouraging for these models.
+#### The zero f1 scores tell us that the model that is unable to classify any observation into the correct class.
+#### The Decision Tree f1 score = 0.426810 is the highest in the group and more than double the KNN f1 score = 0.194093.
+#### However, a different result emerged when we attempted to optimize these models.
+#### I would attempt different configurations and change the optimization parameters accordingly.
+
+### Insights
+#### The metrics presented can pose some confusion based on the numbers that emerged.
+#### However, these will evolve as the values used are refined.
+#### Here are some ideas to do that.
+#### The bar chart representing Age by the 'y' feature shows a pattern that we first saw in the histogram.
+#### Here we see "no" values are dominant and "yes" values are not very tall.
+<img src="images/Count by Age.png"/>
+
+#### This represents an opportunity for growth!
+#### There are many reasons why the recipients didn't accept the offer which could be uncovered by the other features not used.
+
+
+## Next steps and recommendations
+
+#### The following collection of graphs show a similar shape as the age graph.
+<img src="images/Count by Education.png"/>
+<img src="images/Count by Job.png"/>
+<img src="images/Count by Housing.png"/>
+<img src="images/Count by Marital.png"/>
+
+#### I think these shapes represent something more than just a picture.
+#### They could be a path forward by breaking down each category and finding opportunities.
+#### Along with the other features like contact, month, day_of_week, there are endless possibilities to reach potential investors at the right time.
+#### Keeping track of these customers and their life events represents opportunities for additional investment products.
+
+
+## Link to notebook
+### https://github.com/jiml-mlai-bootcamp-ucberkeley/Practical-Application-Assignment_17_1
