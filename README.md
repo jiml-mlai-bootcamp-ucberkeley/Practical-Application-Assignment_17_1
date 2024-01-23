@@ -111,7 +111,7 @@
 
 
 ##### This table represents the Features that were selected, how many it was selected, and relevant pie chart data.
-##### The <b>bold green</b> features were selected for modeling and predictions.
+##### The <b>bold</b> features were selected for modeling and predictions.
 <table>
 <tr><th>Feature</th><th>Count</th><th>Pie Chart</th></tr>
 <tr><td><b>job</b></td><td>1</td><td></td></tr>
