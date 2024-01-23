@@ -123,7 +123,9 @@
 <tr><td><b>housing</td><td>6</td><td>yes 52.4% , no 45.2% , unknown 2.4%</td></tr>
 </table>
 
-
+##### <b>The proportion of no,unknown, & yes values in the housing feature is acceptable.  Let's keep that one.</b>
+##### The proportion of no,unknown, & yes values in the default feature is too large to overcome.  Let's skip that one.
+##### The proportion of no,unknown, & yes values in the loan feature is too large to overcome.  Let's skip that one too.
 
 
 #### Here's a table comparing the Baseline Models without any Hyper Parameters
