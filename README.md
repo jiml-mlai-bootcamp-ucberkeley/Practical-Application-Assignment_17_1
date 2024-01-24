@@ -167,7 +167,7 @@
 #### Here are some ideas to do that.
 #### The bar chart representing Age by the 'y' feature shows a pattern that we first saw in the histogram.
 #### Here we see "no" values are dominant and "yes" values are not very tall.
-<img width="50%" src="images/Count by Age.png"/>
+<img width="75%" src="images/Count by Age.png"/>
 
 #### This represents an opportunity for growth!
 #### There are many reasons why the recipients didn't accept the offer which could be uncovered by the other features not used.
@@ -176,10 +176,10 @@
 ## Next steps and recommendations
 
 #### The following collection of graphs show a similar shape as the age graph.
-<img width="50%" src="images/Count by Education.png"/>
-<img width="50%" src="images/Count by Job.png"/>
-<img width="50%" src="images/Count by Housing.png"/>
-<img width="50%" src="images/Count by Marital.png"/>
+<img width="75%" src="images/Count by Education.png"/>
+<img width="75%" src="images/Count by Job.png"/>
+<img width="75%" src="images/Count by Housing.png"/>
+<img width="75%" src="images/Count by Marital.png"/>
 
 #### I think these shapes represent something more than just a picture.
 #### They could be a path forward by breaking down each category and finding opportunities.
