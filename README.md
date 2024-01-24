@@ -151,7 +151,13 @@
 #### The zero f1 scores tell us that the model that is unable to classify any observation into the correct class.
 #### The Decision Tree f1 score = 0.426810 is the highest in the group and more than double the KNN f1 score = 0.194093.
 #### However, a different result emerged when we attempted to optimize these models.
-#### I would attempt different configurations and change the optimization parameters accordingly.
+
+<br/>
+
+#### When we use the optimized parameter with the training and test data, the f1 scores for Decision Tree and KNN change.
+<img src="images/Model Comparisons 4.png"/>
+
+#### These values are still low, but present an opportunity to explore refinement.
 
 <br/>
 
