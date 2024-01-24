@@ -70,6 +70,8 @@
 
 ##### Output variable (desired target):
   17 - y - has the client subscribed a term deposit? (binary: "yes","no")<br/>
+<br/>
+<br/>
 
 #### Here are some Pie Charts that show proportions in the some of the features.
 #### These will be useful later during my analysis.
@@ -110,7 +112,7 @@
 </table>
 
 
-##### This table represents the Features that were selected, how many it was selected, and relevant pie chart data.
+##### This table represents the Features that were selected, how many times it was selected, and relevant pie chart data.
 ##### The <b>bold</b> features were selected for modeling and predictions.
 <table>
 <tr><th>Feature</th><th>Count</th><th>Pie Chart</th></tr>
@@ -124,12 +126,14 @@
 </table>
 
 ##### <b>The proportion of no,unknown, & yes values in the housing feature is acceptable.  Let's keep that one.</b>
-##### The proportion of no,unknown, & yes values in the default feature is too large to overcome.  Let's skip that one.
-##### The proportion of no,unknown, & yes values in the loan feature is too large to overcome.  Let's skip that one too.
-
+##### The proportion of no,unknown, & yes values in the loan feature is too large to overcome.  Let's skip that one.
+##### The proportion of no,unknown, & yes values in the default feature is too large to overcome.  Let's skip that one too.
+<br/>
+<br/>
 
 #### Here's a table comparing the Baseline Models without any Hyper Parameters
 <img src="images/Model Comparisons b.png"/>
+<br/>
 
 ##### Improving the Model
 ##### The age feature appears to be skewed to the left and could use some attention.
@@ -148,6 +152,8 @@
 #### The Decision Tree f1 score = 0.426810 is the highest in the group and more than double the KNN f1 score = 0.194093.
 #### However, a different result emerged when we attempted to optimize these models.
 #### I would attempt different configurations and change the optimization parameters accordingly.
+
+<br/>
 
 ### Insights
 #### The metrics presented can pose some confusion based on the numbers that emerged.
