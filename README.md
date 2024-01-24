@@ -75,13 +75,13 @@
 
 #### Here are some Pie Charts that show proportions in the some of the features.
 #### These will be useful later during my analysis.
-<img src="images/default_pie_chart.png"/>
-<img src="images/education_pie_chart.png"/>
-<img src="images/marital_pie_chart.png"/>
-<img src="images/age_pie_chartt.png"/>
-<img src="images/job_pie_chart.png"/>
-<img src="images/housing_pie_chart.png"/>
-<img src="images/loan_pie_chart.png"/>
+<img width="50%" src="images/default_pie_chart.png"/>
+<img width="50%" src="images/education_pie_chart.png"/>
+<img width="50%" src="images/marital_pie_chart.png"/>
+<img width="50%" src="images/age_pie_chartt.png"/>
+<img width="50%" src="images/job_pie_chart.png"/>
+<img width="50%" src="images/housing_pie_chart.png"/>
+<img width="50%" src="images/loan_pie_chart.png"/>
 
 
 #### Here are the magnitude of individual features correlated to the 'y' feature and the Heatmaps visualization
@@ -167,7 +167,7 @@
 #### Here are some ideas to do that.
 #### The bar chart representing Age by the 'y' feature shows a pattern that we first saw in the histogram.
 #### Here we see "no" values are dominant and "yes" values are not very tall.
-<img src="images/Count by Age.png"/>
+<img width="50%" src="images/Count by Age.png"/>
 
 #### This represents an opportunity for growth!
 #### There are many reasons why the recipients didn't accept the offer which could be uncovered by the other features not used.
@@ -176,10 +176,10 @@
 ## Next steps and recommendations
 
 #### The following collection of graphs show a similar shape as the age graph.
-<img src="images/Count by Education.png"/>
-<img src="images/Count by Job.png"/>
-<img src="images/Count by Housing.png"/>
-<img src="images/Count by Marital.png"/>
+<img width="50%" src="images/Count by Education.png"/>
+<img width="50%" src="images/Count by Job.png"/>
+<img width="50%" src="images/Count by Housing.png"/>
+<img width="50%" src="images/Count by Marital.png"/>
 
 #### I think these shapes represent something more than just a picture.
 #### They could be a path forward by breaking down each category and finding opportunities.
